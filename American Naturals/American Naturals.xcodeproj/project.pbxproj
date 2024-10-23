@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710320A02888D1C8009B1FD3 /* CategorySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103209F2888D1C8009B1FD3 /* CategorySearch.swift */; };
+		710320A12888D1C8009B1FD3 /* CategorySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103209F2888D1C8009B1FD3 /* CategorySearch.swift */; };
+		710320A22888D1C8009B1FD3 /* CategorySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103209F2888D1C8009B1FD3 /* CategorySearch.swift */; };
+		710BD023270FBAF3002E1871 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710BD022270FBAF3002E1871 /* Product.swift */; };
+		710E4A4C2698D0140042E4CF /* CategoryFormulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E4A4B2698D0140042E4CF /* CategoryFormulation.swift */; };
+		710E4A4E26994D060042E4CF /* FormulationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E4A4D26994D060042E4CF /* FormulationForm.swift */; };
+		7158685926977B9E008A59D5 /* American_NaturalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158685826977B9E008A59D5 /* American_NaturalsApp.swift */; };
+		7158685B26977B9E008A59D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158685A26977B9E008A59D5 /* ContentView.swift */; };
+		7158685D26977B9F008A59D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7158685C26977B9F008A59D5 /* Assets.xcassets */; };
+		7158686026977B9F008A59D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7158685F26977B9F008A59D5 /* Preview Assets.xcassets */; };
+		7158686A26977B9F008A59D5 /* American_NaturalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158686926977B9F008A59D5 /* American_NaturalsTests.swift */; };
+		7158687426977B9F008A59D5 /* American_NaturalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158687326977B9F008A59D5 /* American_NaturalsUITests.swift */; };
+		7158688226977BFF008A59D5 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158688126977BFF008A59D5 /* CategoryHome.swift */; };
+		7158688426977C0C008A59D5 /* CategoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158688326977C0C008A59D5 /* CategoryStore.swift */; };
+		715D165E288CAF090053443E /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D165D288CAF090053443E /* CartManager.swift */; };
+		715D165F288CAF090053443E /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D165D288CAF090053443E /* CartManager.swift */; };
+		715D1660288CAF090053443E /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D165D288CAF090053443E /* CartManager.swift */; };
+		715D1665288CF5540053443E /* Zinc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D1664288CF5540053443E /* Zinc.swift */; };
+		715D1666288CF5540053443E /* Zinc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D1664288CF5540053443E /* Zinc.swift */; };
+		715D1667288CF5540053443E /* Zinc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D1664288CF5540053443E /* Zinc.swift */; };
+		71CADDF5288B970B002EA780 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CADDF4288B970B002EA780 /* ProductCard.swift */; };
+		71CADDF9288BC0D8002EA780 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CADDF8288BC0D8002EA780 /* CartButton.swift */; };
+		71CADDFA288BC0D8002EA780 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CADDF8288BC0D8002EA780 /* CartButton.swift */; };
+		71CADDFB288BC0D8002EA780 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CADDF8288BC0D8002EA780 /* CartButton.swift */; };
+		71CADDFD288BC324002EA780 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CADDFC288BC324002EA780 /* CartView.swift */; };
+		71CADDFE288BC324002EA780 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CADDFC288BC324002EA780 /* CartView.swift */; };
+		71CADDFF288BC324002EA780 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CADDFC288BC324002EA780 /* CartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7158686626977B9F008A59D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7158684D26977B9E008A59D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7158685426977B9E008A59D5;
+			remoteInfo = "American Naturals";
+		};
+		7158687026977B9F008A59D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7158684D26977B9E008A59D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7158685426977B9E008A59D5;
+			remoteInfo = "American Naturals";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7103209F2888D1C8009B1FD3 /* CategorySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySearch.swift; sourceTree = "<group>"; };
+		710BD022270FBAF3002E1871 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		710E4A4B2698D0140042E4CF /* CategoryFormulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFormulation.swift; sourceTree = "<group>"; };
+		710E4A4D26994D060042E4CF /* FormulationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulationForm.swift; sourceTree = "<group>"; };
+		7158685526977B9E008A59D5 /* American Naturals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "American Naturals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7158685826977B9E008A59D5 /* American_NaturalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American_NaturalsApp.swift; sourceTree = "<group>"; };
+		7158685A26977B9E008A59D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7158685C26977B9F008A59D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7158685F26977B9F008A59D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7158686526977B9F008A59D5 /* American NaturalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "American NaturalsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7158686926977B9F008A59D5 /* American_NaturalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American_NaturalsTests.swift; sourceTree = "<group>"; };
+		7158686F26977B9F008A59D5 /* American NaturalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "American NaturalsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7158687326977B9F008A59D5 /* American_NaturalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American_NaturalsUITests.swift; sourceTree = "<group>"; };
+		7158688126977BFF008A59D5 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		7158688326977C0C008A59D5 /* CategoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStore.swift; sourceTree = "<group>"; };
+		715D165D288CAF090053443E /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		715D1664288CF5540053443E /* Zinc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zinc.swift; sourceTree = "<group>"; };
+		71CADDF4288B970B002EA780 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		71CADDF8288BC0D8002EA780 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		71CADDFC288BC324002EA780 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7158685226977B9E008A59D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7158686226977B9F008A59D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7158686C26977B9F008A59D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7158684C26977B9E008A59D5 = {
+			isa = PBXGroup;
+			children = (
+				7158685726977B9E008A59D5 /* American Naturals */,
+				7158686826977B9F008A59D5 /* American NaturalsTests */,
+				7158687226977B9F008A59D5 /* American NaturalsUITests */,
+				7158685626977B9E008A59D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7158685626977B9E008A59D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7158685526977B9E008A59D5 /* American Naturals.app */,
+				7158686526977B9F008A59D5 /* American NaturalsTests.xctest */,
+				7158686F26977B9F008A59D5 /* American NaturalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7158685726977B9E008A59D5 /* American Naturals */ = {
+			isa = PBXGroup;
+			children = (
+				7158685826977B9E008A59D5 /* American_NaturalsApp.swift */,
+				7158685A26977B9E008A59D5 /* ContentView.swift */,
+				710E4A4D26994D060042E4CF /* FormulationForm.swift */,
+				7158688026977BE6008A59D5 /* Categories */,
+				71CADDF1288B8E76002EA780 /* Shop */,
+				7158685E26977B9F008A59D5 /* Preview Content */,
+				7158685C26977B9F008A59D5 /* Assets.xcassets */,
+			);
+			path = "American Naturals";
+			sourceTree = "<group>";
+		};
+		7158685E26977B9F008A59D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7158685F26977B9F008A59D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7158686826977B9F008A59D5 /* American NaturalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7158686926977B9F008A59D5 /* American_NaturalsTests.swift */,
+			);
+			path = "American NaturalsTests";
+			sourceTree = "<group>";
+		};
+		7158687226977B9F008A59D5 /* American NaturalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7158687326977B9F008A59D5 /* American_NaturalsUITests.swift */,
+			);
+			path = "American NaturalsUITests";
+			sourceTree = "<group>";
+		};
+		7158688026977BE6008A59D5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7158688126977BFF008A59D5 /* CategoryHome.swift */,
+				7158688326977C0C008A59D5 /* CategoryStore.swift */,
+				710E4A4B2698D0140042E4CF /* CategoryFormulation.swift */,
+				7103209F2888D1C8009B1FD3 /* CategorySearch.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		715D1661288CF4C80053443E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710BD022270FBAF3002E1871 /* Product.swift */,
+				71CADDF4288B970B002EA780 /* ProductCard.swift */,
+				715D1663288CF5050053443E /* Items */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		715D1662288CF4EA0053443E /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				715D165D288CAF090053443E /* CartManager.swift */,
+				71CADDF8288BC0D8002EA780 /* CartButton.swift */,
+				71CADDFC288BC324002EA780 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		715D1663288CF5050053443E /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				715D1664288CF5540053443E /* Zinc.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		71CADDF1288B8E76002EA780 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				715D1661288CF4C80053443E /* Products */,
+				715D1662288CF4EA0053443E /* Cart */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7158685426977B9E008A59D5 /* American Naturals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7158687726977B9F008A59D5 /* Build configuration list for PBXNativeTarget "American Naturals" */;
+			buildPhases = (
+				7158685126977B9E008A59D5 /* Sources */,
+				7158685226977B9E008A59D5 /* Frameworks */,
+				7158685326977B9E008A59D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "American Naturals";
+			productName = "American Naturals";
+			productReference = 7158685526977B9E008A59D5 /* American Naturals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7158686426977B9F008A59D5 /* American NaturalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7158687A26977B9F008A59D5 /* Build configuration list for PBXNativeTarget "American NaturalsTests" */;
+			buildPhases = (
+				7158686126977B9F008A59D5 /* Sources */,
+				7158686226977B9F008A59D5 /* Frameworks */,
+				7158686326977B9F008A59D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7158686726977B9F008A59D5 /* PBXTargetDependency */,
+			);
+			name = "American NaturalsTests";
+			productName = "American NaturalsTests";
+			productReference = 7158686526977B9F008A59D5 /* American NaturalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7158686E26977B9F008A59D5 /* American NaturalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7158687D26977B9F008A59D5 /* Build configuration list for PBXNativeTarget "American NaturalsUITests" */;
+			buildPhases = (
+				7158686B26977B9F008A59D5 /* Sources */,
+				7158686C26977B9F008A59D5 /* Frameworks */,
+				7158686D26977B9F008A59D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7158687126977B9F008A59D5 /* PBXTargetDependency */,
+			);
+			name = "American NaturalsUITests";
+			productName = "American NaturalsUITests";
+			productReference = 7158686F26977B9F008A59D5 /* American NaturalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7158684D26977B9E008A59D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7158685426977B9E008A59D5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7158686426977B9F008A59D5 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7158685426977B9E008A59D5;
+					};
+					7158686E26977B9F008A59D5 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7158685426977B9E008A59D5;
+					};
+				};
+			};
+			buildConfigurationList = 7158685026977B9E008A59D5 /* Build configuration list for PBXProject "American Naturals" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7158684C26977B9E008A59D5;
+			productRefGroup = 7158685626977B9E008A59D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7158685426977B9E008A59D5 /* American Naturals */,
+				7158686426977B9F008A59D5 /* American NaturalsTests */,
+				7158686E26977B9F008A59D5 /* American NaturalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7158685326977B9E008A59D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7158686026977B9F008A59D5 /* Preview Assets.xcassets in Resources */,
+				7158685D26977B9F008A59D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7158686326977B9F008A59D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7158686D26977B9F008A59D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7158685126977B9E008A59D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710320A02888D1C8009B1FD3 /* CategorySearch.swift in Sources */,
+				715D165E288CAF090053443E /* CartManager.swift in Sources */,
+				7158685B26977B9E008A59D5 /* ContentView.swift in Sources */,
+				715D1665288CF5540053443E /* Zinc.swift in Sources */,
+				7158688426977C0C008A59D5 /* CategoryStore.swift in Sources */,
+				71CADDF5288B970B002EA780 /* ProductCard.swift in Sources */,
+				710E4A4E26994D060042E4CF /* FormulationForm.swift in Sources */,
+				7158688226977BFF008A59D5 /* CategoryHome.swift in Sources */,
+				71CADDFD288BC324002EA780 /* CartView.swift in Sources */,
+				710E4A4C2698D0140042E4CF /* CategoryFormulation.swift in Sources */,
+				7158685926977B9E008A59D5 /* American_NaturalsApp.swift in Sources */,
+				71CADDF9288BC0D8002EA780 /* CartButton.swift in Sources */,
+				710BD023270FBAF3002E1871 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7158686126977B9F008A59D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CADDFE288BC324002EA780 /* CartView.swift in Sources */,
+				715D1666288CF5540053443E /* Zinc.swift in Sources */,
+				715D165F288CAF090053443E /* CartManager.swift in Sources */,
+				7158686A26977B9F008A59D5 /* American_NaturalsTests.swift in Sources */,
+				71CADDFA288BC0D8002EA780 /* CartButton.swift in Sources */,
+				710320A12888D1C8009B1FD3 /* CategorySearch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7158686B26977B9F008A59D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CADDFF288BC324002EA780 /* CartView.swift in Sources */,
+				715D1667288CF5540053443E /* Zinc.swift in Sources */,
+				715D1660288CAF090053443E /* CartManager.swift in Sources */,
+				7158687426977B9F008A59D5 /* American_NaturalsUITests.swift in Sources */,
+				71CADDFB288BC0D8002EA780 /* CartButton.swift in Sources */,
+				710320A22888D1C8009B1FD3 /* CategorySearch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7158686726977B9F008A59D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7158685426977B9E008A59D5 /* American Naturals */;
+			targetProxy = 7158686626977B9F008A59D5 /* PBXContainerItemProxy */;
+		};
+		7158687126977B9F008A59D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7158685426977B9E008A59D5 /* American Naturals */;
+			targetProxy = 7158687026977B9F008A59D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7158687526977B9F008A59D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7158687626977B9F008A59D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7158687826977B9F008A59D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"American Naturals/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CN574434X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ray.American-Naturals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7158687926977B9F008A59D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"American Naturals/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CN574434X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ray.American-Naturals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7158687B26977B9F008A59D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CN574434X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ray.American-NaturalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/American Naturals.app/American Naturals";
+			};
+			name = Debug;
+		};
+		7158687C26977B9F008A59D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CN574434X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ray.American-NaturalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/American Naturals.app/American Naturals";
+			};
+			name = Release;
+		};
+		7158687E26977B9F008A59D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CN574434X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ray.American-NaturalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "American Naturals";
+			};
+			name = Debug;
+		};
+		7158687F26977B9F008A59D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CN574434X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ray.American-NaturalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "American Naturals";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7158685026977B9E008A59D5 /* Build configuration list for PBXProject "American Naturals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7158687526977B9F008A59D5 /* Debug */,
+				7158687626977B9F008A59D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7158687726977B9F008A59D5 /* Build configuration list for PBXNativeTarget "American Naturals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7158687826977B9F008A59D5 /* Debug */,
+				7158687926977B9F008A59D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7158687A26977B9F008A59D5 /* Build configuration list for PBXNativeTarget "American NaturalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7158687B26977B9F008A59D5 /* Debug */,
+				7158687C26977B9F008A59D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7158687D26977B9F008A59D5 /* Build configuration list for PBXNativeTarget "American NaturalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7158687E26977B9F008A59D5 /* Debug */,
+				7158687F26977B9F008A59D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7158684D26977B9E008A59D5 /* Project object */;
+}
